@@ -6,5 +6,21 @@ h1{
 }
 
 .subheading mb-5{
-    color:lightblue !important;
+    color:lightgray !important;
+}
+#sideNav {
+    background-color: lightgray !important;
+}
+
+/* Links in the Intro page - dark blue color */
+.nav-link,
+.lead a,
+.subheading a {
+    color: #00008B !important;
+}
+
+.nav-link:hover,
+.lead a:hover,
+.subheading a:hover {
+    text-decoration: underline;
 }
